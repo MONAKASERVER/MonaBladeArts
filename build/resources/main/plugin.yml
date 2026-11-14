@@ -1,0 +1,18 @@
+name: MonaBladeArts
+version: 1.0.0-alpha.1
+main: net.monacraft.bladearts.MonaBladeArtsPlugin
+api-version: '1.21'
+authors: [MONAKA SERVER]
+description: Server-authoritative blade combat for MONAKA SERVER
+depend: [Slimefun]
+softdepend: [CraftEngine, MythicMobs, WorldGuard, Floodgate]
+commands:
+  bladearts:
+    aliases: [ba, 刀剣]
+    description: 刀剣戦闘システム
+    usage: /bladearts <guide|status|give|reload>
+permissions:
+  monabladearts.use:
+    default: true
+  monabladearts.admin:
+    default: op

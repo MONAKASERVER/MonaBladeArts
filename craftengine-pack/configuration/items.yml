@@ -1,0 +1,34 @@
+items:
+  monabladearts:blade_nameless:
+    material: iron_sword
+    item_model: monabladearts:blade_nameless
+  monabladearts:blade_white:
+    material: diamond_sword
+    item_model: monabladearts:blade_white
+  monabladearts:blade_crimson:
+    material: netherite_sword
+    item_model: monabladearts:blade_crimson
+  monabladearts:blade_gale:
+    material: diamond_sword
+    item_model: monabladearts:blade_gale
+  monabladearts:blade_void:
+    material: netherite_sword
+    item_model: monabladearts:blade_void
+  monabladearts:soul_fragment:
+    material: amethyst_shard
+    item_model: monabladearts:soul_fragment
+  monabladearts:blade_soul:
+    material: echo_shard
+    item_model: monabladearts:blade_soul
+  monabladearts:soul_ingot:
+    material: netherite_ingot
+    item_model: monabladearts:soul_ingot
+  monabladearts:soul_crystal:
+    material: prismarine_crystals
+    item_model: monabladearts:soul_crystal
+  monabladearts:soul_sphere:
+    material: ender_eye
+    item_model: monabladearts:soul_sphere
+  monabladearts:soul_trapezohedron:
+    material: nether_star
+    item_model: monabladearts:soul_trapezohedron
