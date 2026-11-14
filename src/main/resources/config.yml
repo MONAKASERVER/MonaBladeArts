@@ -27,3 +27,7 @@ slimefun-guide:
 client-bridge:
   enabled: true
   channel: "monabladearts:input"
+resource-pack:
+  # Deployment-only switch. The production installer enables it for one
+  # maintenance boot, then disables it again after publishing the new pack.
+  regenerate-on-start: false

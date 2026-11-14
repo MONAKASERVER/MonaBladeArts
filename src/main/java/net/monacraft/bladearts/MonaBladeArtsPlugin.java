@@ -39,6 +39,13 @@ public final class MonaBladeArtsPlugin extends JavaPlugin implements SlimefunAdd
             getServer().getMessenger().registerIncomingPluginChannel(this, channel, new ClientInputBridge(combat));
         }
         getServer().getScheduler().runTaskTimer(this, combat::tickRanks, 20L, 20L);
+        if (getConfig().getBoolean("resource-pack.regenerate-on-start", false)
+                && getServer().getPluginManager().isPluginEnabled("CraftEngine")) {
+            getServer().getScheduler().runTaskLater(this, () -> {
+                getLogger().info("Running the deployment-only CraftEngine pack regeneration");
+                getServer().dispatchCommand(getServer().getConsoleSender(), "ce reload all");
+            }, 200L);
+        }
         getLogger().info("MonaBladeArts enabled with server-authoritative combat and Slimefun guide integration");
     }
 
